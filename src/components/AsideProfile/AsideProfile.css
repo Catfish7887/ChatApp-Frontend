@@ -1,0 +1,22 @@
+.asideProfile {
+    display: grid;
+    grid-template-areas: 
+    'image name . edit'
+    'image desc . .';
+}
+
+.asideProfile__name {
+  grid-area: name;
+}
+
+.asideProfile__description {
+  grid-area: desc;
+}
+
+.asideProfile__image {
+  grid-area: image;
+}
+
+.asideProfile__editButton {
+  grid-area: edit;
+}

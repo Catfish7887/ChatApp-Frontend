@@ -1,0 +1,6 @@
+@import url(../src/vendor/normalize.css);
+@import url(../src/vendor/fonts/Inter/inter.css);
+
+@import url(../src/components/App/App.css);
+@import url(../src/components/Navigation/Navigation.css);
+@import url(../src/components/AsideProfile/AsideProfile.css);
