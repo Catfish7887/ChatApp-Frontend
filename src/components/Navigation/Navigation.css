@@ -1,0 +1,6 @@
+.navigation{
+  padding: 36px 30px 0;
+  color: #4399FF;
+  display: flex;
+  flex-direction: column;
+}

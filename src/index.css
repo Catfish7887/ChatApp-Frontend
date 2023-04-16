@@ -1,6 +1,9 @@
-@import url(../src/vendor/normalize.css);
-@import url(../src/vendor/fonts/Inter/inter.css);
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/Inter/inter.css);
 
-@import url(../src/components/App/App.css);
-@import url(../src/components/Navigation/Navigation.css);
-@import url(../src/components/AsideProfile/AsideProfile.css);
+@import url(./components/App/App.css);
+@import url(./components/Navigation/Navigation.css);
+@import url(./components/AsideProfile/AsideProfile.css);
+@import url(./components/DialogueList/DialogueList.css);
+@import url(./components/Dialogue/Dialogue.css);
+@import url(./components/Chat/Chat.css);

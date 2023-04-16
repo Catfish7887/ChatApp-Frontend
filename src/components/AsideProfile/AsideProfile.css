@@ -1,22 +1,45 @@
 .asideProfile {
-    display: grid;
-    grid-template-areas: 
-    'image name . edit'
-    'image desc . .';
+  display: grid;
+  grid-template-areas:
+    'image name . . . . edit'
+    'image desc . . . . .';
+  column-gap: 10px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #CDCDCD;
 }
 
 .asideProfile__name {
   grid-area: name;
+  font-size: 15px;
+  line-height: 18px;
+  align-self: end;
 }
 
 .asideProfile__description {
   grid-area: desc;
+  font-size: 12px;
+  line-height: 11px;
+  color: #545454;
+  align-self: start;
 }
 
 .asideProfile__image {
   grid-area: image;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
 }
 
 .asideProfile__editButton {
   grid-area: edit;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  align-self: end;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.asideProfile__editButton:hover {
+  opacity: 0.6;
 }
